@@ -1,5 +1,5 @@
 //ADD YOUR CODE HERE.
-$.getJSON("http://www.tutorialspoint.com/jquery/result.json", function(data){
+$.getJSON("http://localhost:8080/Oraclereq/guide.JSON", {'mimeType' : 'application/json'}, function(data){
 	alert(data);
 })
 .success(function() { alert("second success"); })
