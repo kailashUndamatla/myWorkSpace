@@ -1,5 +1,5 @@
 //ADD YOUR CODE HERE.
-$.getJSON("http://localhost:8080/Oraclereq/guide.JSON", function(data){
+$.getJSON("http://www.tutorialspoint.com/jquery/result.json", function(data){
 	alert(data);
 })
 .success(function() { alert("second success"); })
