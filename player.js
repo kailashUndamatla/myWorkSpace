@@ -4,6 +4,6 @@ $.getJSON("http://localhost:8080/Oraclereq/guide.JSON", {'mimeType' : 'applicati
 		$(subData.selector).attr('title', subData.content);
 	});
 })
-.success(function() { alert("second success"); })
-.error(function(jqXHR, textStatus, errorThrown) { alert(errorThrown); })
-.complete(function() { alert("complete"); });
+//.success(function() { alert("second success"); })
+//.error(function(jqXHR, textStatus, errorThrown) { alert(errorThrown); })
+//.complete(function() { alert("complete"); });
